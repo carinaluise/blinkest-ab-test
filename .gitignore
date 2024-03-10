@@ -1,0 +1,33 @@
+# Node modules
+/node_modules
+
+# Generated files
+/build
+/dist
+
+# Log files
+*.log
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Local environment variables
+.env
+
+# macOS files
+.DS_Store
+
+# Editor files
+*.swp
+*~
+.project
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+
+# Backup files
+*.bak
+*.backup
