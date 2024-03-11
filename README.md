@@ -1,6 +1,11 @@
-# Astro Blog Project
+# Blog AB-Testing
+
+<b>🚀 deployed on [surge](https://ab-testing-blog.surge.sh/)</b>
 
 This project is an [Astro](https://astro.build/) blog application that uses A/B testing for tracking user interactions. It allows users to read blog posts and tracks page views and their interactions with buttons using A/B variant tracking.
+
+![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ## Getting Started
 
@@ -18,7 +23,7 @@ To run this project locally, follow the steps below:
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/carinaluise/blinkest-ab-test.git
+git clone git@github.com:carinaluise/blinkest-ab-test.git
 ```
 
 2. Navigate to the project directory:
@@ -79,3 +84,4 @@ Improvements:
 - Implement data processing in API, send through JS objects or snakecased strings instead of current imitation(example) strings to API.
 - Conditionally render html based on varient type instead of using js to remove element
 - Implement TS properly
+- Add a landing page as index instead of the blog/ organize url structure better
